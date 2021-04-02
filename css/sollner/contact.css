@@ -1,0 +1,402 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body  {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #ffffff;
+	margin: 0;
+	padding: 0 0 0 0;
+	text-align: center;
+	color: #000000;
+	cursor:crosshair
+}
+.contents #container { 
+	width: 950px;
+	background: #FFffff;
+	margin: 0 auto;
+	text-align: center;
+} 
+.contents #header { 
+	background: #ffFFFF; 
+	padding: 37px 0px 15px 0px;
+	margin: 0 auto;
+} 
+.contents #sidebar1 {
+	float: left;
+	width: 125px;
+	height: 400px;
+	background: #FffFFF;
+	padding: 0px 0px 0px 0px;
+	margin: 72px 0 0 220px;
+	
+}
+
+.contents #sidebar2 {
+	float: left;
+	width: 75px;
+	height: 500px;
+	background: #FFFFFF;
+	padding: 0px 0px 0px 0px;
+	margin: 30px 0px 0 0px;
+	/* set margin left to 260 as alternative*/
+	/* set margin left to 150 as alternative*/
+	font-size: 8pt;
+	letter-spacing: 0.1em;
+	word-spacing: 0.1.5em;
+	line-height: 1.9em;
+	font-style: normal;
+	text-align: left;
+	color: #000000;
+}
+
+.contents #sidebar3 {
+	float: left;
+	width: 500px;
+	height: 390px;
+	background: #FFFFFF;
+	padding: 0px 0px 0px 0px;
+	margin: 30px 0px 0 0px;
+	/* set margin left to 260 as alternative*/
+	/* set margin left to 150 as alternative*/
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	color: #000000;
+}
+
+/*-------------------------------------------------------------------Gallery Details--------------------------------------------*/
+
+
+.contents #options {
+	width: 300px;
+	float:right;
+	background: #ffffff;
+	padding: 0px 25px 0px 0px;
+	margin: 0px 0px 0 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.4em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: right;
+	color: #000000;
+	line-height:3em;
+}
+
+
+.contents #options span {
+	font-weight:bold;
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin-left:30px;
+	color:#000000
+}
+
+.contents #options span:hover {
+	font-weight:bold;
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin-left:30px;
+	color:#CF1F1D;
+}
+
+.contents #options span span{
+	font-weight:bold;
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin-left:30px;
+	color:#999;
+}
+
+.contents #options span span:hover{
+	font-weight:bold;
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin-left:30px;
+	color:#999;
+}
+
+
+
+
+/*-------------------------------------------------------------------Gallery Details--------------------------------------------*/
+
+
+
+.contents #representation {
+		float: left;
+	width: 600px;
+	height: 390px;
+	background: #FFFFFF;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0 0px;
+	/* set margin left to 260 as alternative*/
+	/* set margin left to 150 as alternative*/
+	font-family: Arial, Helvetica, sans-serif;
+	
+font-size: 8pt;
+	letter-spacing: 0.1em;
+	word-spacing: 0.1.5em;
+	line-height: 1.5em;
+	font-style: normal;
+	text-align: left;
+	color: #000000;
+}
+.contents #representation span {
+	width: 400px;
+	float:left
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.2em;
+	line-height:2.5em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+}
+
+.contents #representation span span {
+	width: 400px;
+	float:left
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.2em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	line-height:1.2em;
+}
+
+.contents #representation span span:hover {
+	width: 400px;
+	float:left
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.2em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	color: #CF1F1D;
+	line-height:1.2em;
+}
+
+.contents #representation span span span {
+	width: 400px;
+	float:left
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.2em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	line-height:1.2em;
+}
+
+.contents #representation span span span:hover {
+	width: 400px;
+	float:left
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.2em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	line-height:1.2em;
+}
+
+/*-------------------------------------------------------------------stuff dont touch--------------------------------------------*/
+
+.contents #footer { 
+	padding: 0px 0px 0px 0px;
+	background:#fffccc;
+} 
+
+/*-------------------------------------------------------------------stuff dont touch--------------------------------------------*/
+
+.contents #footer p {
+	margin: 0;
+	padding: 0px 0;
+}
+.fltrt {
+	float: right;
+	margin-left: 0px;
+}
+.fltlft {
+	float: left;
+	margin-right: 0px;
+}
+.clearfloat {
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+/*-------------------------------------------------------------------header styles--------------------------------------------*/
+
+h1 
+{ /* for CONTENTS */
+	text-align: center;
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.6em;
+	word-spacing: 0.2em;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h2
+/* for left colum */
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.3em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: right;
+	color: #000000;
+	text-decoration:none;
+	padding: 0 0 0 0px;
+	line-height:3em;
+	}
+
+.contents #preface {
+	padding: 0 0 1px 0;
+	font-weight: bold;
+	line-height: 0px;
+}
+.contents #appendix {
+	padding: 1px 0 0px 0;
+	font-weight: bold;
+	line-height: 0px;
+}
+
+/*-------------------------------------------------------------------Floating Images--------------------------------------------*/
+
+.chapters{ 
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.3em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+	text-decoration:none;
+	padding: 0 0 0 0px;
+	line-height:3em;
+}
+
+.chapters:hover{
+font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.3em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	color: #900;
+	text-decoration:none;
+	padding: 0 0 0 0px;
+	line-height:3em;
+}	
+
+.email {
+	width: 400px;
+	float:left
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.2em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	color: #000000;
+	line-height:1.2em;
+	text-decoration:none;
+}
+
+.email:hover {
+	width: 400px;
+	float:left
+	background: #ffffff;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.2em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	color: #CF1F1D;
+	line-height:1.2em;
+	text-decoration:none;
+}
+/****************************************** NUMERAL *****************************************/
+
+.chapters span{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.2em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	color: #000000;
+	text-decoration:none;
+	padding: 0 0 0 0px;
+	}
+	
+.chapters:hover span{ 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.2em;
+	word-spacing: 0.4em;
+	font-style: normal;
+	font-weight: bold;
+	text-align: left;
+	color: #CF1F1D;
+	text-decoration:none;
+	padding: 0 0 0 0px;
+	}
+
+/****************************************** appendix fix for firefox *****************************************/
+
+a.linkstyle {color: #000; text-decoration: none}
+a.linkstyle:hover{color: #000; text-decoration: none} 
+
+a.linkstyle span{color: #000; text-decoration: none}
+a.linkstyle:hover span {color: #CF1F1D; text-decoration: none} 
+ 
+ 
+

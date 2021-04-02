@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#splash {
+	/* index introduction */
+	position: fixed;
+	z-index: 9991;
+	/*top: 0px;*/
+	width: 950px;
+	height: 550px;
+	background: #FFFFFF;
+	padding: 0px 0 0px 0px;
+	margain: 0px 0 0px 0;
+	}
+	
+h4 {
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: 0.6em;
+	word-spacing: 0.2em;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 179px 0 0 0;
+	line-height: 14pt;
+}
+	
+#splash img{
+	margin-top:300px;
+	}
+div#btCloseSplash{
+	clear:both;
+	margin:10px auto;
+	border:1px solid #333;
+	padding:4px;
+	width:60px;
+	cursor: pointer;
+	} 
